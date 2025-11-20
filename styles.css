@@ -1,0 +1,30 @@
+.header *{
+    border: 1px solid red;
+}
+.body *{
+    border: 1px solid blue;
+}
+.footer{
+    border: 1px solid darkorange;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 2000px;
+    /* justify-content: center; */
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+ul{
+    gap: 10px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
