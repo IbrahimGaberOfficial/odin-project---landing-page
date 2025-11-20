@@ -14,13 +14,15 @@ body {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  height: 2000px;
+  /* height: 2000px; */
   /* justify-content: center; */
+  margin: 0 100px;
+  background-color: rgb(97, 97, 182)
 }
 .headar {
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  margin:10px 0;
 }
 ul {
   gap: 10px;
@@ -97,7 +99,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 40px 200px;
+  margin: 40px 100px;
 }
 
 .quote-author {
