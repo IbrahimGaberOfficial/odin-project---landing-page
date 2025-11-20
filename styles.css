@@ -17,7 +17,7 @@ body {
   height: 2000px;
   /* justify-content: center; */
 }
-.header {
+.headar {
   display: flex;
   justify-content: space-between;
   margin: 10px 20px;
