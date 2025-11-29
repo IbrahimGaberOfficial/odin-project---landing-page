@@ -24,7 +24,7 @@ body {
   /* height: 2000px; */
   /* justify-content: center; */
   /* margin: 0 100px; */
-  background-color: rgb(97, 97, 182);
+  /* background-color: rgb(97, 97, 182); */
 }
 .headar {
   display: flex;
@@ -153,7 +153,7 @@ ul {
   padding-right: 365px;
   font-size: 20px;
   font-weight: 900;
-  color: #1F2937;
+  color: #1f2937;
 }
 
 /* call to action part */
@@ -161,11 +161,36 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  background-color: #ffffff;
 }
 .call-to-action-item {
+  padding: 40px 0px;
+  margin: 50px 100px;
+  background-color: #3882f6;
   display: flex;
-  gap: 30px;
+  width: 801px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border-radius: 7px;
 }
+
+.cta-title {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.cta-desc {
+  color: #e5e7eb;
+}
+
+button.cta-signup-btn {
+  color: aliceblue;
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0px 26px;
+  height: 31px;
+}
+
 /* .footer styles */
 .footer {
   display: flex;
