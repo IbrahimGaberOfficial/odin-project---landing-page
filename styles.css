@@ -4,10 +4,10 @@
 }
 .body * {
   /*for debuggin*/
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .random-info-container * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .footer {
   border: 1px solid darkorange;
@@ -74,19 +74,14 @@ ul {
   font-weight: 900;
   color: #f9faf8;
 }
-/* .intro-left {
-  display: flex;
-  flex: 1;
-  } */
-  .intro-disc {
-    color: #e5e4eb;
-  }
-  .intro-signup-btn {
+.intro-disc {
+  color: #e5e4eb;
+}
+.intro-signup-btn {
   color: #f9faf8;
-  background-color:#3882f6;
+  background-color: #3882f6;
   padding: 5px 30px;
   border-radius: 5px;
-  
 }
 .intro-picture-item {
   flex: 1;
@@ -97,10 +92,14 @@ ul {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: #f9faf8;
 }
 .randome-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
   text-align: center;
-  margin: 20px 0;
+  margin: 35px 0;
 }
 .cards {
   display: flex;
@@ -109,15 +108,21 @@ ul {
   gap: 20px;
   margin: 0px 90px 100px 90px;
 }
-.square-img {
-  width: 100px;
-  height: 100px;
-}
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.square-img {
+  border: 1px solid #3882f6;
+  border-radius: 11px;
+  width: 150px;
+  height: 150px;
+}
+.img-disc {
+  color: #363636;
 }
 
 /* quote part */
