@@ -31,16 +31,16 @@ body {
   justify-content: space-between;
   align-items: baseline;
   background-color: #1f2937;
-  color: white;
   /* padding left and right */
-  padding: 10px 50px; 
-  
+  padding: 10px 100px;
 }
 .headar-logo {
-  font-size: 24px; 
+  color: #f9faf8;
+  font-size: 24px;
   font-weight: bold;
 }
 ul {
+  color: #e5e4eb;
   gap: 10px;
   display: flex;
   list-style-type: none;
@@ -53,25 +53,40 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
 /* intro part */
 .website-intro-container {
+  background-color: #1f2937;
   flex: 1;
   display: flex;
-  gap: 20px;
-}
-.intro-left {
-  display: flex;
-  flex: 1;
-}
-.intro-empty-space {
-  flex: 1;
+  gap: 35px;
+  padding: 0px 100px;
 }
 .intro-text-items {
   display: flex;
-  flex: 2;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
+}
+.intro-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+/* .intro-left {
+  display: flex;
+  flex: 1;
+  } */
+  .intro-disc {
+    color: #e5e4eb;
+  }
+  .intro-signup-btn {
+  color: #f9faf8;
+  background-color:#3882f6;
+  padding: 5px 30px;
+  border-radius: 5px;
+  
 }
 .intro-picture-item {
   flex: 1;
