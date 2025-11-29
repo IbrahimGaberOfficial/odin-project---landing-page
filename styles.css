@@ -123,6 +123,7 @@ ul {
 }
 .img-disc {
   color: #363636;
+  max-width: 140px;
 }
 
 /* quote part */
