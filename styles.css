@@ -32,7 +32,7 @@ body {
   align-items: baseline;
   background-color: #1f2937;
   /* padding left and right */
-  padding: 10px 100px;
+  padding: 10px 380px;
 }
 .headar-logo {
   color: #f9faf8;
@@ -59,8 +59,11 @@ ul {
   background-color: #1f2937;
   flex: 1;
   display: flex;
-  gap: 35px;
-  padding: 0px 100px;
+  align-items: flex-end;
+  gap: 80px;
+  padding: 100px 380px;
+
+  
 }
 .intro-text-items {
   display: flex;
@@ -85,6 +88,7 @@ ul {
 }
 .intro-picture-item {
   flex: 1;
+  background-color: rgb(245 207 142);
 }
 
 /* randome info part */
@@ -196,7 +200,9 @@ button.cta-signup-btn {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
 }
 .copy-rights {
   margin: 30px 0;
+  color: #f9faf8;
 }
